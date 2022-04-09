@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Regular.ttf) format('truetype')}
+    
+
+@font-face{
+    font-family: "SF-Pro-Display-Bold";
+    src: url(../font/SF-Pro-Display-Bold.ttf) format('truetype')}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url(../font/Product\ Sans\ Regular.ttf) format('truetype')}
+
+*{
+    font-family: "SF-Pro-Display";
+}
+
+.navbar-custom {
+    background-color: #7950f2;
+}
+/* Modify brand and text color */
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+    transition: 0.2s;
+}
+.navbar-custom:hover .navbar-brand:hover,
+.navbar-custom:hover .navbar-text:hover {
+    color: #d4cee6;
+}
+
+#link{
+    color: #cac0e9;
+}
+#link:hover{
+    color: #a994e8;
+}
+
+.foto {
+    max-width: 15vh;
+    border-radius: 4px;
+}
+
+.card1 {
+    max-width: 80vh;
+    left: 2vh;
+    top: 2vh;
+}
+
+.row {
+    right: 5%;
+}
+
