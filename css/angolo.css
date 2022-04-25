@@ -36,6 +36,17 @@ html{
     background: #cd93ff;
 }
 
+#corpo {
+    top: 30vh;
+}
+
+.foto {
+    max-width: 100vh;
+    top: 10vh;
+    left: 50vh;
+    align-items: center;
+}
+
 .navbar-custom {
     background-color: #7950f2;
 }
