@@ -6,4 +6,15 @@
     max-width: 120vh;
 }
 
+.elenco1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    max-width: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
