@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url(../font/SF-Pro-Display-Regular.ttf) format('truetype')}
+    
+
+@font-face{
+    font-family: "SF-Pro-Display-Bold";
+    src: url(../font/SF-Pro-Display-Bold.ttf) format('truetype')}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url(../font/Product\ Sans\ Regular.ttf) format('truetype')}
+
+*{
+    font-family: "SF-Pro-Display";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 1vh;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+
+    background: #f5e942;
+
+    border-radius: 100vh;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #fdf693;
+}
+
+.navbar-custom {
+    background-color: #f7e931;
+}
+/* Modify brand and text color */
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #000000;
+    transition: 0.2s;
+}
+
+
+#link{
+    color: black;
+}
+#link:hover{
+    color: black;
+}
